@@ -1,15 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import Gel from './components/hello';
-import Varia from './components/print'; // Capitalized component name
 
+import './App.css'; // Capitalized component name
+import Welcome from './components/dump'
 function App() {
   return (
-    <div className="App">
-
-      <main className="mainContent">
-        <div className="bing"><Varia/></div>
-      </main>
+    <div>
+        <Welcome name="sat"/>
+    
     </div>
   );
 }

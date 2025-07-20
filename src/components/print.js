@@ -1,7 +1,6 @@
-import React ,{createElement}from "react"
-const dummy= nam =>
+import React from "react"
+const dummy= (nam) =>
 {
-    return (
-        ierjnierjerjmjtrg
-    )
+    return <h1>HELLO {nam.name}</h1>
 }
+export default dummy 
